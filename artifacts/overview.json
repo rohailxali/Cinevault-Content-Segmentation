@@ -1,0 +1,66 @@
+{
+  "total_titles": 8789,
+  "n_clusters": 4,
+  "n_movies": 6125,
+  "n_tv_shows": 2664,
+  "dataset_year_range": [
+    1925,
+    2021
+  ],
+  "clustering_metrics": {
+    "silhouette_score": 0.2758,
+    "davies_bouldin_score": 1.2954,
+    "calinski_harabasz_score": 2166.78
+  },
+  "cluster_sizes": [
+    [
+      0,
+      632
+    ],
+    [
+      1,
+      5499
+    ],
+    [
+      2,
+      252
+    ],
+    [
+      3,
+      2406
+    ]
+  ],
+  "rating_distribution": {
+    "TV-MA": 3205,
+    "TV-14": 2157,
+    "TV-PG": 861,
+    "R": 799,
+    "PG-13": 489,
+    "TV-Y7": 333
+  },
+  "top_genres_global": {
+    "International Movies": 2752,
+    "Dramas": 2426,
+    "Comedies": 1674,
+    "International TV Shows": 1349,
+    "Documentaries": 869,
+    "Action & Adventure": 858,
+    "TV Dramas": 762,
+    "Independent Movies": 756,
+    "Children & Family Movies": 641,
+    "Romantic Movies": 616
+  },
+  "cluster_labels": {
+    "0": "Mostly Movies \u00b7 Dramas & Comedies \u00b7 Mature \u00b7 Classic",
+    "1": "Mostly Movies \u00b7 International & Dramas \u00b7 Mature \u00b7 2010s",
+    "2": "Mostly TV Shows \u00b7 TV Comedies & TV Dramas \u00b7 Rated TV-14 \u00b7 Recent",
+    "3": "Mostly TV Shows \u00b7 International & TV Dramas \u00b7 Mature \u00b7 Recent"
+  },
+  "selected_k": 4,
+  "pca_2d_explained_variance": 0.4787,
+  "pca_3d_explained_variance": 0.5521,
+  "data_quality": {
+    "director_not_given_pct": 29.4,
+    "country_not_given_pct": 3.3
+  }
+}

@@ -1,0 +1,718 @@
+[
+  {
+    "cluster_id": 0,
+    "n_titles": 632,
+    "pct_of_dataset": 7.2,
+    "dominant_type": "Movie",
+    "dominant_type_pct": 97.3,
+    "n_movies": 615,
+    "n_tv_shows": 17,
+    "top_genres": [
+      {
+        "value": "Dramas",
+        "cluster_pct": 18.8,
+        "global_pct": 12.6,
+        "lift": 1.49,
+        "count": 268
+      },
+      {
+        "value": "Comedies",
+        "cluster_pct": 14.8,
+        "global_pct": 8.7,
+        "lift": 1.7,
+        "count": 211
+      },
+      {
+        "value": "International Movies",
+        "cluster_pct": 13.9,
+        "global_pct": 14.3,
+        "lift": 0.98,
+        "count": 199
+      },
+      {
+        "value": "Action & Adventure",
+        "cluster_pct": 13.2,
+        "global_pct": 4.4,
+        "lift": 2.96,
+        "count": 188
+      },
+      {
+        "value": "Classic Movies",
+        "cluster_pct": 8.0,
+        "global_pct": 0.6,
+        "lift": 13.38,
+        "count": 115
+      }
+    ],
+    "top_ratings": [
+      {
+        "value": "R",
+        "cluster_pct": 25.0,
+        "global_pct": 9.1,
+        "lift": 2.75,
+        "count": 158
+      },
+      {
+        "value": "TV-14",
+        "cluster_pct": 23.4,
+        "global_pct": 24.5,
+        "lift": 0.95,
+        "count": 148
+      },
+      {
+        "value": "PG-13",
+        "cluster_pct": 17.4,
+        "global_pct": 5.6,
+        "lift": 3.13,
+        "count": 110
+      },
+      {
+        "value": "TV-MA",
+        "cluster_pct": 10.4,
+        "global_pct": 36.5,
+        "lift": 0.29,
+        "count": 66
+      },
+      {
+        "value": "PG",
+        "cluster_pct": 9.7,
+        "global_pct": 3.3,
+        "lift": 2.96,
+        "count": 61
+      }
+    ],
+    "top_countries": [
+      {
+        "value": "United States",
+        "cluster_pct": 56.2,
+        "global_pct": 38.1,
+        "lift": 1.47,
+        "count": 346
+      },
+      {
+        "value": "India",
+        "cluster_pct": 18.0,
+        "global_pct": 12.4,
+        "lift": 1.45,
+        "count": 111
+      },
+      {
+        "value": "United Kingdom",
+        "cluster_pct": 6.2,
+        "global_pct": 7.5,
+        "lift": 0.82,
+        "count": 38
+      },
+      {
+        "value": "Hong Kong",
+        "cluster_pct": 5.4,
+        "global_pct": 0.9,
+        "lift": 5.77,
+        "count": 33
+      },
+      {
+        "value": "Egypt",
+        "cluster_pct": 2.6,
+        "global_pct": 1.4,
+        "lift": 1.8,
+        "count": 16
+      }
+    ],
+    "release_year_mean": 1989.0,
+    "release_year_median": 1993.0,
+    "release_year_min": 1925,
+    "release_year_max": 2004,
+    "movie_duration_median_min": 108.0,
+    "tv_seasons_median": 1.0,
+    "representative_titles": [
+      {
+        "title": "Unspeakable Acts",
+        "type": "Movie",
+        "rating": "TV-14",
+        "release_year": 1990,
+        "country": "United States",
+        "listed_in": "Dramas",
+        "duration": "95 min",
+        "distance_to_centroid": 1.3215
+      },
+      {
+        "title": "A Stoning in Fulham County",
+        "type": "Movie",
+        "rating": "TV-14",
+        "release_year": 1988,
+        "country": "United States",
+        "listed_in": "Dramas",
+        "duration": "95 min",
+        "distance_to_centroid": 1.3221
+      },
+      {
+        "title": "In Defense of a Married Man",
+        "type": "Movie",
+        "rating": "TV-14",
+        "release_year": 1990,
+        "country": "United States",
+        "listed_in": "Dramas",
+        "duration": "94 min",
+        "distance_to_centroid": 1.3267
+      },
+      {
+        "title": "American Me",
+        "type": "Movie",
+        "rating": "R",
+        "release_year": 1992,
+        "country": "United States",
+        "listed_in": "Dramas",
+        "duration": "126 min",
+        "distance_to_centroid": 1.3289
+      },
+      {
+        "title": "Rain Man",
+        "type": "Movie",
+        "rating": "R",
+        "release_year": 1988,
+        "country": "United States",
+        "listed_in": "Classic Movies, Dramas",
+        "duration": "134 min",
+        "distance_to_centroid": 1.3309
+      }
+    ],
+    "label": "Mostly Movies \u00b7 Dramas & Comedies \u00b7 Mature \u00b7 Classic"
+  },
+  {
+    "cluster_id": 1,
+    "n_titles": 5499,
+    "pct_of_dataset": 62.6,
+    "dominant_type": "Movie",
+    "dominant_type_pct": 100.0,
+    "n_movies": 5499,
+    "n_tv_shows": 0,
+    "top_genres": [
+      {
+        "value": "International Movies",
+        "cluster_pct": 21.7,
+        "global_pct": 14.3,
+        "lift": 1.52,
+        "count": 2552
+      },
+      {
+        "value": "Dramas",
+        "cluster_pct": 18.3,
+        "global_pct": 12.6,
+        "lift": 1.46,
+        "count": 2158
+      },
+      {
+        "value": "Comedies",
+        "cluster_pct": 12.4,
+        "global_pct": 8.7,
+        "lift": 1.43,
+        "count": 1463
+      },
+      {
+        "value": "Documentaries",
+        "cluster_pct": 7.1,
+        "global_pct": 4.5,
+        "lift": 1.58,
+        "count": 836
+      },
+      {
+        "value": "Independent Movies",
+        "cluster_pct": 6.1,
+        "global_pct": 3.9,
+        "lift": 1.55,
+        "count": 713
+      }
+    ],
+    "top_ratings": [
+      {
+        "value": "TV-MA",
+        "cluster_pct": 36.4,
+        "global_pct": 36.5,
+        "lift": 1.0,
+        "count": 1999
+      },
+      {
+        "value": "TV-14",
+        "cluster_pct": 23.3,
+        "global_pct": 24.5,
+        "lift": 0.95,
+        "count": 1284
+      },
+      {
+        "value": "R",
+        "cluster_pct": 11.6,
+        "global_pct": 9.1,
+        "lift": 1.28,
+        "count": 639
+      },
+      {
+        "value": "TV-PG",
+        "cluster_pct": 8.9,
+        "global_pct": 9.8,
+        "lift": 0.91,
+        "count": 490
+      },
+      {
+        "value": "PG-13",
+        "cluster_pct": 6.9,
+        "global_pct": 5.6,
+        "lift": 1.24,
+        "count": 379
+      }
+    ],
+    "top_countries": [
+      {
+        "value": "United States",
+        "cluster_pct": 39.1,
+        "global_pct": 38.1,
+        "lift": 1.03,
+        "count": 2056
+      },
+      {
+        "value": "India",
+        "cluster_pct": 16.4,
+        "global_pct": 12.4,
+        "lift": 1.32,
+        "count": 865
+      },
+      {
+        "value": "United Kingdom",
+        "cluster_pct": 6.7,
+        "global_pct": 7.5,
+        "lift": 0.89,
+        "count": 350
+      },
+      {
+        "value": "Canada",
+        "cluster_pct": 3.5,
+        "global_pct": 3.2,
+        "lift": 1.1,
+        "count": 185
+      },
+      {
+        "value": "France",
+        "cluster_pct": 2.7,
+        "global_pct": 2.5,
+        "lift": 1.07,
+        "count": 141
+      }
+    ],
+    "release_year_mean": 2015.8,
+    "release_year_median": 2017.0,
+    "release_year_min": 2002,
+    "release_year_max": 2021,
+    "movie_duration_median_min": 97.0,
+    "tv_seasons_median": null,
+    "representative_titles": [
+      {
+        "title": "Bombshell",
+        "type": "Movie",
+        "rating": "TV-MA",
+        "release_year": 2016,
+        "country": "New Zealand",
+        "listed_in": "Dramas",
+        "duration": "86 min",
+        "distance_to_centroid": 1.213
+      },
+      {
+        "title": "Layla M.",
+        "type": "Movie",
+        "rating": "TV-MA",
+        "release_year": 2016,
+        "country": "Netherlands",
+        "listed_in": "Dramas, International Movies",
+        "duration": "99 min",
+        "distance_to_centroid": 1.2206
+      },
+      {
+        "title": "Pekak",
+        "type": "Movie",
+        "rating": "TV-MA",
+        "release_year": 2016,
+        "country": "Malaysia",
+        "listed_in": "Dramas, International Movies",
+        "duration": "95 min",
+        "distance_to_centroid": 1.2217
+      },
+      {
+        "title": "O Sil\u00eancio do C\u00e9u",
+        "type": "Movie",
+        "rating": "TV-MA",
+        "release_year": 2016,
+        "country": "Brazil",
+        "listed_in": "Dramas, International Movies",
+        "duration": "102 min",
+        "distance_to_centroid": 1.2229
+      },
+      {
+        "title": "Mad World",
+        "type": "Movie",
+        "rating": "TV-MA",
+        "release_year": 2016,
+        "country": "Hong Kong",
+        "listed_in": "Dramas, International Movies",
+        "duration": "102 min",
+        "distance_to_centroid": 1.2229
+      }
+    ],
+    "label": "Mostly Movies \u00b7 International & Dramas \u00b7 Mature \u00b7 2010s"
+  },
+  {
+    "cluster_id": 2,
+    "n_titles": 252,
+    "pct_of_dataset": 2.9,
+    "dominant_type": "TV Show",
+    "dominant_type_pct": 100.0,
+    "n_movies": 0,
+    "n_tv_shows": 252,
+    "top_genres": [
+      {
+        "value": "TV Comedies",
+        "cluster_pct": 17.1,
+        "global_pct": 3.0,
+        "lift": 5.76,
+        "count": 91
+      },
+      {
+        "value": "TV Dramas",
+        "cluster_pct": 16.9,
+        "global_pct": 3.9,
+        "lift": 4.28,
+        "count": 90
+      },
+      {
+        "value": "Kids' TV",
+        "cluster_pct": 10.5,
+        "global_pct": 2.3,
+        "lift": 4.53,
+        "count": 56
+      },
+      {
+        "value": "International TV Shows",
+        "cluster_pct": 10.2,
+        "global_pct": 7.0,
+        "lift": 1.45,
+        "count": 54
+      },
+      {
+        "value": "Crime TV Shows",
+        "cluster_pct": 7.1,
+        "global_pct": 2.4,
+        "lift": 2.94,
+        "count": 38
+      }
+    ],
+    "top_ratings": [
+      {
+        "value": "TV-14",
+        "cluster_pct": 34.5,
+        "global_pct": 24.5,
+        "lift": 1.41,
+        "count": 87
+      },
+      {
+        "value": "TV-MA",
+        "cluster_pct": 34.1,
+        "global_pct": 36.5,
+        "lift": 0.94,
+        "count": 86
+      },
+      {
+        "value": "TV-PG",
+        "cluster_pct": 10.3,
+        "global_pct": 9.8,
+        "lift": 1.05,
+        "count": 26
+      },
+      {
+        "value": "TV-Y7",
+        "cluster_pct": 9.9,
+        "global_pct": 3.8,
+        "lift": 2.62,
+        "count": 25
+      },
+      {
+        "value": "TV-Y",
+        "cluster_pct": 6.7,
+        "global_pct": 3.5,
+        "lift": 1.94,
+        "count": 17
+      }
+    ],
+    "top_countries": [
+      {
+        "value": "United States",
+        "cluster_pct": 63.5,
+        "global_pct": 38.1,
+        "lift": 1.67,
+        "count": 160
+      },
+      {
+        "value": "United Kingdom",
+        "cluster_pct": 11.1,
+        "global_pct": 7.5,
+        "lift": 1.48,
+        "count": 28
+      },
+      {
+        "value": "Canada",
+        "cluster_pct": 7.1,
+        "global_pct": 3.2,
+        "lift": 2.24,
+        "count": 18
+      },
+      {
+        "value": "Japan",
+        "cluster_pct": 3.2,
+        "global_pct": 3.0,
+        "lift": 1.04,
+        "count": 8
+      },
+      {
+        "value": "Pakistan",
+        "cluster_pct": 2.4,
+        "global_pct": 5.0,
+        "lift": 0.48,
+        "count": 6
+      }
+    ],
+    "release_year_mean": 2015.2,
+    "release_year_median": 2018.0,
+    "release_year_min": 1967,
+    "release_year_max": 2021,
+    "movie_duration_median_min": null,
+    "tv_seasons_median": 5.0,
+    "representative_titles": [
+      {
+        "title": "Community",
+        "type": "TV Show",
+        "rating": "TV-14",
+        "release_year": 2015,
+        "country": "United States",
+        "listed_in": "TV Comedies",
+        "duration": "6 Seasons",
+        "distance_to_centroid": 1.2153
+      },
+      {
+        "title": "House of Cards",
+        "type": "TV Show",
+        "rating": "TV-MA",
+        "release_year": 2018,
+        "country": "United States",
+        "listed_in": "TV Dramas, TV Thrillers",
+        "duration": "6 Seasons",
+        "distance_to_centroid": 1.2606
+      },
+      {
+        "title": "Gossip Girl",
+        "type": "TV Show",
+        "rating": "TV-14",
+        "release_year": 2012,
+        "country": "United States",
+        "listed_in": "TV Dramas, Teen TV Shows",
+        "duration": "6 Seasons",
+        "distance_to_centroid": 1.2727
+      },
+      {
+        "title": "Supergirl",
+        "type": "TV Show",
+        "rating": "TV-14",
+        "release_year": 2019,
+        "country": "United States",
+        "listed_in": "TV Action & Adventure, TV Sci-Fi & Fantasy",
+        "duration": "5 Seasons",
+        "distance_to_centroid": 1.2822
+      },
+      {
+        "title": "Comedians in Cars Getting Coffee",
+        "type": "TV Show",
+        "rating": "TV-14",
+        "release_year": 2019,
+        "country": "United States",
+        "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+        "duration": "6 Seasons",
+        "distance_to_centroid": 1.2871
+      }
+    ],
+    "label": "Mostly TV Shows \u00b7 TV Comedies & TV Dramas \u00b7 Rated TV-14 \u00b7 Recent"
+  },
+  {
+    "cluster_id": 3,
+    "n_titles": 2406,
+    "pct_of_dataset": 27.4,
+    "dominant_type": "TV Show",
+    "dominant_type_pct": 99.5,
+    "n_movies": 11,
+    "n_tv_shows": 2395,
+    "top_genres": [
+      {
+        "value": "International TV Shows",
+        "cluster_pct": 23.2,
+        "global_pct": 7.0,
+        "lift": 3.32,
+        "count": 1293
+      },
+      {
+        "value": "TV Dramas",
+        "cluster_pct": 12.0,
+        "global_pct": 3.9,
+        "lift": 3.05,
+        "count": 670
+      },
+      {
+        "value": "TV Comedies",
+        "cluster_pct": 8.6,
+        "global_pct": 3.0,
+        "lift": 2.91,
+        "count": 481
+      },
+      {
+        "value": "Crime TV Shows",
+        "cluster_pct": 7.7,
+        "global_pct": 2.4,
+        "lift": 3.18,
+        "count": 430
+      },
+      {
+        "value": "Kids' TV",
+        "cluster_pct": 7.0,
+        "global_pct": 2.3,
+        "lift": 3.0,
+        "count": 388
+      }
+    ],
+    "top_ratings": [
+      {
+        "value": "TV-MA",
+        "cluster_pct": 43.8,
+        "global_pct": 36.5,
+        "lift": 1.2,
+        "count": 1054
+      },
+      {
+        "value": "TV-14",
+        "cluster_pct": 26.5,
+        "global_pct": 24.5,
+        "lift": 1.08,
+        "count": 638
+      },
+      {
+        "value": "TV-PG",
+        "cluster_pct": 12.2,
+        "global_pct": 9.8,
+        "lift": 1.25,
+        "count": 294
+      },
+      {
+        "value": "TV-Y",
+        "cluster_pct": 6.9,
+        "global_pct": 3.5,
+        "lift": 1.97,
+        "count": 165
+      },
+      {
+        "value": "TV-Y7",
+        "cluster_pct": 6.9,
+        "global_pct": 3.8,
+        "lift": 1.82,
+        "count": 166
+      }
+    ],
+    "top_countries": [
+      {
+        "value": "United States",
+        "cluster_pct": 28.6,
+        "global_pct": 38.1,
+        "lift": 0.75,
+        "count": 678
+      },
+      {
+        "value": "Pakistan",
+        "cluster_pct": 14.6,
+        "global_pct": 5.0,
+        "lift": 2.94,
+        "count": 346
+      },
+      {
+        "value": "United Kingdom",
+        "cluster_pct": 9.3,
+        "global_pct": 7.5,
+        "lift": 1.24,
+        "count": 221
+      },
+      {
+        "value": "Japan",
+        "cluster_pct": 6.9,
+        "global_pct": 3.0,
+        "lift": 2.27,
+        "count": 164
+      },
+      {
+        "value": "South Korea",
+        "cluster_pct": 6.9,
+        "global_pct": 2.5,
+        "lift": 2.75,
+        "count": 164
+      }
+    ],
+    "release_year_mean": 2017.1,
+    "release_year_median": 2018.0,
+    "release_year_min": 1993,
+    "release_year_max": 2021,
+    "movie_duration_median_min": 13.0,
+    "tv_seasons_median": 1.0,
+    "representative_titles": [
+      {
+        "title": "Sleepless Society: Nyctophobia",
+        "type": "TV Show",
+        "rating": "TV-MA",
+        "release_year": 2019,
+        "country": "Thailand",
+        "listed_in": "International TV Shows, TV Mysteries, TV Thrillers",
+        "duration": "1 Season",
+        "distance_to_centroid": 1.0613
+      },
+      {
+        "title": "Equinox",
+        "type": "TV Show",
+        "rating": "TV-MA",
+        "release_year": 2020,
+        "country": "Denmark",
+        "listed_in": "International TV Shows, TV Mysteries, TV Thrillers",
+        "duration": "1 Season",
+        "distance_to_centroid": 1.0903
+      },
+      {
+        "title": "Bloodride",
+        "type": "TV Show",
+        "rating": "TV-MA",
+        "release_year": 2020,
+        "country": "Norway",
+        "listed_in": "International TV Shows, TV Horror, TV Mysteries",
+        "duration": "1 Season",
+        "distance_to_centroid": 1.0903
+      },
+      {
+        "title": "Reality Z",
+        "type": "TV Show",
+        "rating": "TV-MA",
+        "release_year": 2020,
+        "country": "Brazil",
+        "listed_in": "International TV Shows, TV Horror, TV Mysteries",
+        "duration": "1 Season",
+        "distance_to_centroid": 1.0903
+      },
+      {
+        "title": "Spectros",
+        "type": "TV Show",
+        "rating": "TV-MA",
+        "release_year": 2020,
+        "country": "Brazil",
+        "listed_in": "International TV Shows, TV Horror, TV Mysteries",
+        "duration": "1 Season",
+        "distance_to_centroid": 1.0903
+      }
+    ],
+    "label": "Mostly TV Shows \u00b7 International & TV Dramas \u00b7 Mature \u00b7 Recent"
+  }
+]

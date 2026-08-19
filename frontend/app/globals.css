@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0f;
+  --foreground: #f5f5f7;
+  --surface: #12121a;
+  --surface-hover: #1a1a24;
+  --border: #2a2a35;
+  --accent: #dc2626; /* cinematic red */
+  --accent-hover: #b91c1c;
+  --muted: #9b9bab;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glass-panel {
+  background: rgba(18, 18, 26, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Base transitions */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Cluster Colors */
+.cluster-0 { color: #3b82f6; }
+.cluster-1 { color: #10b981; }
+.cluster-2 { color: #f59e0b; }
+.cluster-3 { color: #8b5cf6; }
+.cluster-4 { color: #ec4899; }
+.cluster-5 { color: #06b6d4; }
+.cluster-6 { color: #f43f5e; }
+.cluster-7 { color: #84cc16; }
+
+.bg-cluster-0 { background-color: #3b82f6; }
+.bg-cluster-1 { background-color: #10b981; }
+.bg-cluster-2 { background-color: #f59e0b; }
+.bg-cluster-3 { background-color: #8b5cf6; }
+.bg-cluster-4 { background-color: #ec4899; }
+.bg-cluster-5 { background-color: #06b6d4; }
+.bg-cluster-6 { background-color: #f43f5e; }
+.bg-cluster-7 { background-color: #84cc16; }

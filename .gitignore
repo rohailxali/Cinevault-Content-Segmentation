@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.env
+.env.local
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# We will commit artifacts/ because they are small and required for the backend to run out-of-the-box.
+# Dataset.csv is 1MB so it's fine to commit.
+
+# Frontend ignore is handled in frontend/.gitignore
